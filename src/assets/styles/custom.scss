@@ -1,0 +1,22 @@
+.el-menu-item [class^=el-icon-] {
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 2px;
+}
+
+.el-submenu [class^=el-icon-] {
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 2px;
+}
+
+.el-menu-item.is-active, .el-menu-item:hover {
+  background-color: #1890ff !important;
+}
+.el-menu {
+  border-right: 0;
+}
+.el-menu-item {
+  height: $base-menu-item-height !important;
+  line-height: $base-menu-item-height !important;
+}
